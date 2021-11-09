@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Gill Sans MT';
+	src: url('../fonts/GillSans-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/GillSans-Regular?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/GillSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/GillSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+		url('../fonts/GillSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/GillSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Gill Sans MT';
+	src: url('../fonts/GillSans-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/GillSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/GillSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/GillSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+		url('../fonts/GillSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/GillSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: bold;
+}
