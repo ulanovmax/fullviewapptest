@@ -503,6 +503,9 @@ h2 {
 }
 
 @media (max-width: 576px) {
+    .header {
+        background-attachment: scroll;
+    }
     .iphone-img_header {
         background-size: cover;
     }
