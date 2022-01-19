@@ -43,3 +43,25 @@ window.onload = function () {
         document.body.classList.remove('loaded_hiding');
     }, 500);
 }
+
+// Hamburger
+
+const hambugerBtn = document.getElementById('menu__hamburger');
+const hambugerBtnOpen = document.getElementById('menu__hamburger_open');
+const mobileMenu = document.getElementById('mobile-nav');
+const overlay = document.getElementById('overlay');
+
+
+hambugerBtn.addEventListener('click', () => {
+    hambugerBtn.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+    overlay.classList.toggle('open');
+    hambugerBtnOpen.classList.toggle('open');
+});
+
+hambugerBtnOpen.addEventListener('click', () => {
+    hambugerBtnOpen.classList.toggle('open');
+    hambugerBtn.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+    overlay.classList.toggle('open');
+})
